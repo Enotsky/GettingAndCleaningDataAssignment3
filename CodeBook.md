@@ -24,10 +24,10 @@ The script aim was only to meet the requirements of Course Project Assignment, s
 * train_dataset - a dataset containing all the information on training measurements (subject, activity labels and measured data)
 
 ### Intermediate variables (vectors)
-ext - a vector of indexes of columns to extract (mean and standard deviation of measurements)
-mean_names - a vector of indexes of column names containing 'mean'
-std_names - a vector of indexes of column names containing 'std'
+* ext - a vector of indexes of columns to extract (mean and standard deviation of measurements)
+* mean_names - a vector of indexes of column names containing 'mean'
+* std_names - a vector of indexes of column names containing 'std'
 
-## Resulting Datasets (dataframes)
-summary_dataset - a dataset of measurements grouped by subjects and activities
-tidy_dataset - a dataset of mean ans std measurements
+### Resulting Datasets (dataframes)
+* summary_dataset - a dataset of measurements grouped by subjects and activities
+* tidy_dataset - a dataset of mean ans std measurements
